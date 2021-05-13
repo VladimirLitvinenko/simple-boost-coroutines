@@ -1,0 +1,11 @@
+#!/bin/bash
+chown root:root -r /usr/local/salaga/adm/lib
+chmod 0755 -R /usr/local/salaga/adm/lib
+echo '"/usr/local/salaga/adm/lib/libspo.core.so" r-x' >> /etc/parsec/kiosk/arm
+echo '"/usr/local/salaga/adm/lib/libspo.core.so.1" r-x' >> /etc/parsec/kiosk/arm
+echo '"/usr/local/salaga/adm/lib/libspo.core.so.1.0" r-x' >> /etc/parsec/kiosk/arm
+echo '"/usr/local/salaga/adm/lib/libspo.core.so.1.0.0" r-x' >> /etc/parsec/kiosk/arm
+echo "/usr/local/salaga/adm/lib" > /etc/ld.so.conf.d/strela.conf
+ldconfig
+
+exit 0

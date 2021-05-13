@@ -1,0 +1,4 @@
+echo '"/usr/local/salaga/adm/lib/libspo.core.so" r-x' >> /etc/parsec/kiosk/arm
+echo '"/usr/local/salaga/adm/lib/libspo.core.so.1" r-x' >> /etc/parsec/kiosk/arm
+echo '"/usr/local/salaga/adm/lib/libspo.core.so.1.0" r-x' >> /etc/parsec/kiosk/arm
+echo '"/usr/local/salaga/adm/lib/libspo.core.so.1.0.0" r-x' >> /etc/parsec/kiosk/arm

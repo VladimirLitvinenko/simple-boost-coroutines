@@ -1,0 +1,2 @@
+echo "/usr/local/salaga/adm/lib" > /etc/ld.so.conf.d/strela.conf
+ldconfig

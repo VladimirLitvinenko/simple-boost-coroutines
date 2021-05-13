@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf /usr/local/salaga/adm/lib/libspo.core*
+exit0

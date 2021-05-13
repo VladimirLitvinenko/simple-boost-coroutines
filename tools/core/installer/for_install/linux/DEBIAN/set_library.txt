@@ -1,0 +1,60 @@
+
+if [ -f /usr/local/salaga/adm/lib/libspo.core.so.1.0.0 ] ; then
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.core.so.1.0 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.core.so.1.0.0 /usr/local/salaga/adm/lib/libspo.core.so.1.0
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.core.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.core.so.1.0.0 /usr/local/salaga/adm/lib/libspo.core.so.1
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.core.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.core.so.1.0.0 /usr/local/salaga/adm/lib/libspo.core.so
+  fi
+fi
+
+if [ -f /usr/local/salaga/adm/lib/libspo.gui.so.1.0.0 ] ; then
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.gui.so.1.0 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.gui.so.1.0.0 /usr/local/salaga/adm/lib/libspo.gui.so.1.0
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.gui.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.gui.so.1.0.0 /usr/local/salaga/adm/lib/libspo.gui.so.1
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.gui.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.gui.so.1.0.0 /usr/local/salaga/adm/lib/libspo.gui.so
+  fi
+fi
+
+if [ -f /usr/local/salaga/adm/lib/libspo.bzi.so.1.0.0 ] ; then
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.bzi.so.1.0 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.bzi.so.1.0.0 /usr/local/salaga/adm/lib/libspo.bzi.so.1.0
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.bzi.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.bzi.so.1.0.0 /usr/local/salaga/adm/lib/libspo.bzi.so.1
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.bzi.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.bzi.so.1.0.0 /usr/local/salaga/adm/lib/libspo.bzi.so
+  fi
+fi
+
+if [ -f /usr/local/salaga/adm/lib/libspo.cluster.so.1.0.0 ] ; then
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.cluster.so.1.0 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.cluster.so.1.0.0 /usr/local/salaga/adm/lib/libspo.cluster.so.1.0
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.cluster.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.cluster.so.1.0.0 /usr/local/salaga/adm/lib/libspo.cluster.so.1
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.cluster.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.cluster.so.1.0.0 /usr/local/salaga/adm/lib/libspo.cluster.so
+  fi
+fi
+
+if [ -f /usr/local/salaga/adm/lib/libspo.service.core.so.1.0.0 ] ; then
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.service.core.so.1.0 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.service.core.so.1.0.0 /usr/local/salaga/adm/lib/libspo.service.core.so.1.0
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.service.core.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.service.core.so.1.0.0 /usr/local/salaga/adm/lib/libspo.service.core.so.1
+  fi
+  if [ ! -f /usr/local/salaga/adm/lib/libspo.service.core.so.1 ] ; then
+    ln -s /usr/local/salaga/adm/lib/libspo.service.core.so.1.0.0 /usr/local/salaga/adm/lib/libspo.service.core.so
+  fi
+fi
